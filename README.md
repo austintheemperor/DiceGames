@@ -1,2 +1,3 @@
 # DiceGames
-assignment for my programing class, it has multiple different games and uses for dice.
+This is an assignment for my Webpage Design class. Tt has multiple different games and uses for dice.
+Run this from the Index html file
