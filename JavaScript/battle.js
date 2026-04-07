@@ -1,4 +1,4 @@
-var randomNum = Math.floor(Math.random() * 20 + 1)
+var randomNum = Math.floor(Math.random() * 6 + 1)
 
 
 document.getElementById('game').innerHTML = `
