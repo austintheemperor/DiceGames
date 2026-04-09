@@ -35,6 +35,7 @@ function roll() {
         ${resultText ? `<h3>${resultText}</h3>` : ""}
 
         <button class="roll-btn" onclick="roll()">Roll</button>
+        <button class="roll-btn" onclick="window.location.href='Index.html';">Home</button>
     `;
 }
 
