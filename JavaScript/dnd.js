@@ -21,4 +21,5 @@ document.getElementById('game').innerHTML = `
     <p class="result-number">${result}</p>
     <p class="result-text">${hit}</p>
     <button class="roll-btn" onclick="location.reload()">Roll Again</button>
+    <button class="roll-btn" onclick="window.location.href='Index.html';">Home</button>
 `;
