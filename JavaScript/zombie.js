@@ -11,7 +11,8 @@ var damage = 0
 function displayPBP() {
     if (!alive) {
         document.getElementById('game').innerHTML = `
-            <p class="result-text">${pbp}</p>
+            <p class="result-text">${pbp}</p><br>
+            <button class="roll-btn" onclick="window.location.href='Index.html';">Home</button>
             `;
 }}
 
