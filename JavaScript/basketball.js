@@ -7,7 +7,8 @@ game = true
 function displayPBP() {
     if (!game) {
         document.getElementById('game').innerHTML = `
-            <p class="result-text">${plays}</p>
+            <p class="result-text">${plays}</p><br>
+            <button class="roll-btn" onclick="window.location.href='Index.html';">Home</button><br>
             `;
 }}
 
