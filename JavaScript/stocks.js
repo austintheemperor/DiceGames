@@ -1,4 +1,5 @@
 var money = Number(prompt("What is your initial investment"))
+const initial = money
 plays = []
 game = true
 
@@ -39,7 +40,7 @@ function roll() {
         if (money <= 1) {
             resultText = "You went broke"
             game = false
-        } else if (money >= 10000) {
+        } else if (money >= (initial * 5)) {
             resultText = "You win!"
             game = false
         }
